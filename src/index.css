@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Colors */
+  --color-primary-blue: #1E3A8A;
+  --color-secondary-blue: #2563EB;
+  --color-light-blue: #EFF6FF;
+  
+  --color-primary-red: #E11D48;
+  --color-hover-red: #BE123C;
+  --color-light-red: #FEF2F2;
+
+  --color-bg-white: #FFFFFF;
+  --color-bg-gray: #F8FAFC;
+  
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94A3B8;
+
+  --color-border-light: #E2E8F0;
+  
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 20px rgba(0,0,0,0.04);
+  --shadow-hover: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-white text-text-secondary font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply text-text-primary font-bold tracking-tight;
+  }
+  
+  section {
+    @apply py-20 lg:py-24;
+  }
+}
+
+@layer utilities {
+  @keyframes scan {
+    0% { transform: translateY(-100%); opacity: 0; }
+    15% { opacity: 1; }
+    85% { opacity: 1; }
+    100% { transform: translateY(400px); opacity: 0; }
+  }
+}
