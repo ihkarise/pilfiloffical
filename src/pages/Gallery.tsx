@@ -6,7 +6,7 @@ const Gallery = () => {
             <section id="gallery" className="bg-bg-white min-h-[80vh] flex flex-col justify-center">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl lg:text-4xl fhont-bold">See pilfiloffical in Action</h2>
+                        <h2 className="text-3xl lg:text-4xl font-bold">See pilfiloffical in Action</h2>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-6 aspect-video md:aspect-auto">
