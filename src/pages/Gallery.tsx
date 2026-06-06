@@ -53,7 +53,7 @@ const Gallery = () => {
                             { name: "./gallery-grid-1.png", fb: "https://images.unsplash.com/photo-1563213126-a4273aed2016?auto=format&fit=crop&q=80&w=600" },
                             { name: "./gallery-grid-2.png", fb: "https://images.unsplash.com/photo-1631549911780-87c04df0a996?auto=format&fit=crop&q=80&w=600" },
             { name: "./gallery-grid-3.jpg", fb: "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?auto=format&fit=crop&q=80&w=600" },
-                            { name: "./gallery-grid-4.png", fb: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=600" }
+                            { name: "./gallery-grid-4.png", fb: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=600" },
             { name: "./gallery-grid-5.jpg", fb: "https://images.unsplash.com/photo-1563213126-a4273aed2016?auto=format&fit=crop&q=80&w=600" },
             { name: "./gallery-grid-6.jpg", fb: "https://images.unsplash.com/photo-1631549911780-87c04df0a996?auto=format&fit=crop&q=80&w=600" },
             { name: "./gallery-grid-7.jpg", fb: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=600" },
