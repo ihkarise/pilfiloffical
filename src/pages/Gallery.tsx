@@ -11,7 +11,7 @@ const Gallery = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-            <div className="md:col-span-2 relative group overflow-hidden rounded-2xl shadow-md h-[480px]">
+            <div className="md:col-span-2 relative group overflow-hidden rounded-2xl shadow-md" style={{height: "480px"}}>
               <img
                 src="./gallery-main.png"
                 alt="Pilfil dispensing tool in action"
@@ -23,8 +23,8 @@ const Gallery = () => {
                 <Play className="w-12 h-12 text-white fill-white shadow-xl" />
               </div>
             </div>
-            <div className="flex flex-col gap-6">
-              <div className="relative group overflow-hidden rounded-2xl shadow-md flex-1 min-h-[225px]">
+            <div className="flex flex-col gap-6" style={{height: "480px"}}>
+              <div className="relative group overflow-hidden rounded-2xl shadow-md" style={{height: "227px"}}>
                 <img
                   src="./gallery-grid-3.jpg"
                   alt="Pilfil tool close-up"
@@ -33,11 +33,11 @@ const Gallery = () => {
                   onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?auto=format&fit=crop&q=80&w=600"; }}
                 />
               </div>
-              <div className="relative group overflow-hidden rounded-2xl shadow-md flex-1 min-h-[225px]">
+              <div className="relative group overflow-hidden rounded-2xl shadow-md" style={{height: "227px"}}>
                 <img
                   src="./hero-tool.png"
                   alt="Pilfil hero tool"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
                   onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1587854692152-cbe668df9762?auto=format&fit=crop&q=80&w=800"; }}
                 />
@@ -64,7 +64,7 @@ const Gallery = () => {
             ))}
           </div>
 
-          <div className="relative group overflow-hidden rounded-2xl shadow-md h-[300px]">
+          <div className="relative group overflow-hidden rounded-2xl shadow-md" style={{height: "300px"}}>
             <img
               src="./gallery-action-1.png"
               alt="Homeopathy medicines"
